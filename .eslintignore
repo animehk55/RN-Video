@@ -1,0 +1,7 @@
+Specifies intentionally files to ignore when using ESLINT
+
+
+/node_modules/**
+/android/**
+/ios/**
+!.eslintrc.js

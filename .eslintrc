@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "max-len": "off",
+    "indent": "off",
+    "global-require": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": false,
+    "react/prefer-stateless-function": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": ["_id"]
+      }
+    ]
+  }
+}
