@@ -25,7 +25,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -40,13 +40,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>localhost</key>
@@ -56,5 +53,21 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fontawesome-b.ttf</string>
+		<string>fontawesome-r.ttf</string>
+		<string>fontawesome-s.ttf</string>
+		<string>OpenSans-B.ttf</string>
+		<string>OpenSans-bold.woff</string>
+		<string>OpenSans-light.woff</string>
+		<string>OpenSans-R.ttf</string>
+		<string>OpenSans-semibold.woff</string>
+		<string>OpenSans.woff</string>
+		<string>Raleway-B.ttf</string>
+		<string>Raleway-M.ttf</string>
+		<string>Raleway-R.ttf</string>
+		<string>Raleway-SB.ttf</string>
+	</array>
 </dict>
 </plist>
